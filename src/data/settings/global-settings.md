@@ -26,11 +26,11 @@ heroes:
     title: Let's write the next chapter together
     description: Have a story to tell, a question to ask, or just want to say hello? We are always listening.
     backgroundImage:
-      src: /assets/images/hero-fallback.jpg
+      src: /uploads/home/hero.jpg
       alt: People connecting through Kenyan Sign Language
     welcomeVideo:
       video: /uploads/home/hello.mp4
-      poster: /assets/images/welcome-poster.jpg
+      poster: /uploads/home/hero.jpg
       captions: /assets/captions/welcome-en.vtt
 newsletter:
   title: Connect With Us
