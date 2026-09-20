@@ -52,7 +52,7 @@ contact:
   location: Nairobi, Kenya
 header:
   logo:
-    src: /uploads/hands-voices-logo-header-32x32.png
+    src: /uploads/logo.svg
     alt: Signs Of Change KE logo
   siteName: Signs Of Change
   tagline: Sign laguage is cool
