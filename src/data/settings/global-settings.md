@@ -52,10 +52,10 @@ contact:
   location: Nairobi, Kenya
 header:
   logo:
-    src: /uploads/signingworld-logo-25.png
+    src: /uploads/signingworld-header-logo-80.png
     alt: Signs Of Change KE logo
-  siteName: Signs Of Change
-  tagline: Sign laguage is cool
+  siteName: Signing World
+  tagline: Two worlds. One Conversation
 deafCultureSections:
   etiquette:
     eyebrow: 01 · ETIQUETTE & SOCIAL NORMS
