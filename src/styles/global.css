@@ -181,6 +181,10 @@ button{
 
     gap:1rem;
 
+    width: 25px;
+
+    height: 25px;
+
 }
 
 .logo-initials{
