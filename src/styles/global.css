@@ -173,70 +173,38 @@ button{
     min-height:82px;
 
 }
-.logo{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:1rem;
-
-    width: 50px;
-
-    height: 50px;
-
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.logo-initials{
-
-    width:46px;
-
-    height:46px;
-
-    border-radius:50%;
-
-    background:var(--accent);
-
-    color:white;
-
-    display:grid;
-
-    place-items:center;
-
-    font-weight:700;
-
-    font-size:1.15rem;
-
+.logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
-.logo-text{
-
-    display:flex;
-
-    flex-direction:column;
-
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
 }
 
-.brand-name{
-
-    font-size:1.5rem;
-
-    font-weight:700;
-
-    line-height:1.1;
-
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.1;
 }
 
-.tagline{
-
-    color:var(--text-main);
-
-    font-size:.65rem;
-
-    text-transform:uppercase;
-
-    letter-spacing:.03em;
-
+.tagline {
+    color: var(--text-main);
+    font-size: .65rem;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    white-space: nowrap;
 }
 .desktop-nav>ul{
 
