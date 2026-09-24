@@ -6,7 +6,7 @@
 
 backend:
   name: github
-  repo: jkiarie76/signs_of_change_KE
+  repo: jkiarie76/signing_world
   branch: main
   base_url: https://sveltia-cms-auth.jkiarie7w.workers.dev
 
