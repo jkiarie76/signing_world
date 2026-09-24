@@ -38,22 +38,22 @@ newsletter:
   buttonText: Join Community
   privacyText: 🔒 No spam • Unsubscribe anytime.
 footer:
-  description: Signs Of Change KE is a platform for learning Kenyan Sign Language, understanding Deaf culture, and connecting with the Deaf community.
-  tagline: Deaf culture, told well
-  copyright: © 2026 Signs Of Change KE • Built to connect communities.
+  description: Signing World is a platform for learning Kenyan Sign Language, understanding Deaf culture, and connecting with the Deaf community.
+  tagline: Two worlds. One Conversation
+  copyright: © 2026 Signing World • Built to connect communities.
 social:
-  facebook: https://www.facebook.com
+  facebook: '#'
   instagram: '#'
   youtube: '#'
   tiktok: '#'
 contact:
-  email: hello@signsofchangeke.org
-  phone: +254 111378601
+  email: hello@signingworld.org
+  phone: '+254722430695'
   location: Nairobi, Kenya
 header:
   logo:
     src: /uploads/signingworld-header-logo-80.png
-    alt: Signs Of Change KE logo
+    alt: Signing World logo
   siteName: Signing World
   tagline: Two worlds. One Conversation
 deafCultureSections:
