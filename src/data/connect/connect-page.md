@@ -24,7 +24,7 @@ contact:
   title: Contact
   description: Story pitches, corrections, cultural feedback, or just a wave. Every message is read by a human.
   phone: 0700 000 000
-  email: info@signsofchangeke.com
+  email: hello@signingworld.org
   socialLinks:
     - platform: Instagram
       url: '#'
