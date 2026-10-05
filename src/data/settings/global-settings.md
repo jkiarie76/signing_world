@@ -47,7 +47,7 @@ social:
   youtube: '#'
   tiktok: '#'
 contact:
-  email: hello@signingworld.org
+  email: signingworldke@gmail.com
   phone: '+254722430695'
   location: Nairobi, Kenya
 header:
