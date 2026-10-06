@@ -52,7 +52,7 @@ const{
 
             </p>
 
-            <form class="newsletter-form">
+            <form class="newsletter-form" data-newsletter-form>
 
                 <input
                     type="email"
@@ -76,3 +76,72 @@ const{
     </div>
 
 </section>
+
+<script>
+    document.querySelectorAll<HTMLFormElement>("[data-newsletter-form]").forEach((form) => {
+        form.addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            const emailInput =
+                form.querySelector<HTMLInputElement>('input[name="email"]');
+
+            const button =
+                form.querySelector<HTMLButtonElement>('button[type="submit"]');
+
+            if (!emailInput || !button) return;
+
+            const originalButtonText = button.innerHTML;
+
+            button.disabled = true;
+            button.textContent = "Joining...";
+
+            try {
+                const response = await fetch("/api/subscribe", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        email: emailInput.value,
+                    }),
+                });
+
+                const result = await response.json();
+
+                if (!response.ok || !result.success) {
+                    throw new Error(
+                        result.message || "Signup failed."
+                    );
+                }
+
+                form.innerHTML = `
+                    <p class="newsletter-success">
+                        ${result.message}
+                    </p>
+                `;
+
+            } catch (error) {
+
+                console.error("Newsletter signup error:", error);
+
+                button.disabled = false;
+                button.innerHTML = originalButtonText;
+
+                let errorMessage =
+                    form.querySelector<HTMLElement>(".newsletter-error");
+
+                if (!errorMessage) {
+                    errorMessage = document.createElement("p");
+                    errorMessage.className = "newsletter-error";
+                    form.appendChild(errorMessage);
+                }
+
+                errorMessage.textContent =
+                    error instanceof Error
+                        ? error.message
+                        : "Something went wrong. Please try again.";
+            }
+        });
+    });
+</script>
+
