@@ -1,14 +1,43 @@
+```html
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Signing World — Admin</title>
+
+    <style>
+      /* Signing World sidebar icon color */
+      [role="treeitem"] > .row > .icon {
+        color: #2563EB !important;
+      }
+    </style>
   </head>
 
   <body>
-
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
 
+    <script>
+      (() => {
+        const recolorSidebarIcons = () => {
+          document
+            .querySelectorAll('[role="treeitem"] .material-symbols-outlined')
+            .forEach((icon) => {
+              icon.style.setProperty("color", "#2563EB", "important");
+            });
+        };
+
+        recolorSidebarIcons();
+
+        const observer = new MutationObserver(recolorSidebarIcons);
+
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true
+        });
+      })();
+    </script>
   </body>
 </html>
+```
