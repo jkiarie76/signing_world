@@ -48,14 +48,14 @@ social:
   tiktok: '#'
 contact:
   email: signingworldke@gmail.com
-  phone: '+254722430695'
+  phone: '+254788158133'
   location: Nairobi, Kenya
 header:
   logo:
     src: /uploads/signingworld-header-logo-80.png
     alt: Signing World logo
   siteName: Signing World
-  tagline: Two worlds. One Conversation
+  tagline: Empowering Deaf Voices
 deafCultureSections:
   etiquette:
     eyebrow: 01 · ETIQUETTE & SOCIAL NORMS
