@@ -20,7 +20,7 @@ const articles = defineCollection({
       "Deaf World",
       "Learn Sign",
       "Advocacy",
-    ]),
+    ]).optional(),
 
     topic: z.string(),
 

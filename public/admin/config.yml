@@ -47,6 +47,7 @@ collections:
       - name: category
         label: Category
         widget: select
+        required: false
         options:
           - History
           - Stories
