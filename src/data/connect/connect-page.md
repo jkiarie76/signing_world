@@ -3,9 +3,9 @@ about:
   eyebrow: ABOUT ME
   title: Hi, I'm Jeridah — writer, signer, and reluctant explainer.
   paragraphs:
-    - I grew up in a mixed hearing–Deaf family, learned to sign before I learned to read, and started Signs Of Change KE because most of what the internet said about Deaf people was written by hearing people.
+    - I grew up in a mixed hearing–Deaf family, learned to sign before I learned to read, and started Signing World because most of what the internet said about Deaf people was written by hearing people.
     - I wanted to create a place with room for both.
-    - You'll find me in the comments, the newsletter, and — every other Friday — behind the camera for our short video letters.
+    - You'll find me in the comments, the newsletter, and every other Friday behind the camera for our short video letters.
   image:
     src: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80
     alt: Community writer smiling
