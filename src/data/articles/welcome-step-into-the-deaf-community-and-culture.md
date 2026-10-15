@@ -7,7 +7,7 @@ author: Jeddy
 publishedDate: 2026-10-15
 updatedDate: ''
 readTime: 1
-featured: true
+featured: false
 homepageFeatured: true
 featuredImage:
   src: /uploads/Letter M.png
