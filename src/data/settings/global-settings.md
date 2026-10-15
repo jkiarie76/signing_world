@@ -48,7 +48,7 @@ social:
   tiktok: '#'
 contact:
   email: signingworldke@gmail.com
-  phone: '+254788158133'
+  phone: +254...
   location: Nairobi, Kenya
 header:
   logo:
