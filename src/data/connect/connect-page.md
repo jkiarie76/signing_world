@@ -1,7 +1,7 @@
 ---
 about:
   eyebrow: ABOUT ME
-  title: Hallo! I'm Jeridah - writer, signer, and reluctant explainer.
+  title: Hallo! I'm Jeddy - writer, signer, and reluctant explainer.
   paragraphs:
     - I grew up around the Deaf community, I learned to sign before reading, and started Signing World because most of what the internet said about Deaf people was written by hearing people.
     - I wanted to create a place with room for both.
@@ -23,7 +23,7 @@ contact:
   eyebrow: SAY HELLO
   title: Contact
   description: Story pitches, corrections, cultural feedback, or just a wave. Every message is read by a human.
-  phone: '0788158133'
+  phone: '0'
   email: signingworldke@gmail.com
   socialLinks:
     - platform: Instagram
