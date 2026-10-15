@@ -1,11 +1,11 @@
 ---
 title: WELCOME! STEP INTO THE DEAF COMMUNITY AND CULTURE
-category: ''
+category: Deaf World
 topic: DEAF WORLD
 excerpt: Signing World is a platform that celebrates the Deaf community, Deaf culture, amplifies Deaf voices, and advocates for inclusion and accessibility.
 author: Jeddy
 publishedDate: 2026-10-15
-updatedDate: ''
+updatedDate: 2026-10-15
 readTime: 1
 featured: false
 homepageFeatured: true
