@@ -7,8 +7,8 @@ author: Jeddy
 publishedDate: 2026-10-27
 updatedDate: ''
 readTime: 1
-featured: true
-homepageFeatured: false
+featured: false
+homepageFeatured: true
 featuredImage:
   src: /uploads/Letter M.png
   alt: Signing Letter 'M' - Tuck thumb underneath the first three fingers
